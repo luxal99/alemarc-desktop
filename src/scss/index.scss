@@ -1,0 +1,11 @@
+$default-orange:#ffa900;
+.orange-btn {
+    width: 30%;
+    background-color: $default-orange;
+    border-radius: 8px;
+    padding: .4em 0;
+    box-shadow: 10px 10px 49px -27px rgba(0, 0, 0, .75);
+    color: #fff;
+    margin: 1em;
+    border: 1px solid $default-orange;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "dist/main.js",
+    "scripts": {
+        "start": "tsc && electron ."
+    },
+    "repository": "https://github.com/luxal99/alemarc-desktop",
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^11.0.4"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "bootstrap": "^4.5.3",
+        "jquery": "^3.5.1",
+        "typescript": "^4.1.2"
+    }
+}
