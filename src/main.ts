@@ -1,5 +1,3 @@
-import * as path from "path"
-
 import { BrowserWindow, app } from "electron"
 
 function createWindow() {
@@ -7,6 +5,7 @@ function createWindow() {
         width: 800,
         height: 600,
         webPreferences:{
+          nodeIntegration:true,
           contextIsolation:false
         }
 

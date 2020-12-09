@@ -397,7 +397,7 @@
         "affectsGlobalScope": true
       },
       "../main.ts": {
-        "version": "610bcf39f0ccec33d1319b7d3ec4df6fdce57bdb560a179fd3ac30dc4a787188",
+        "version": "96694318ac388f862f2654a791ca4ebd9b9e6be1fafaf865c7fd2e6d3b82c633",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -411,7 +411,12 @@
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       },
-      "../js/index.ts": {
+      "../models/Blog.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "../models/Technology.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
@@ -433,7 +438,6 @@
     },
     "referencedMap": {
       "../main.ts": [
-        "../node_modules/@types/node/path.d.ts",
         "../node_modules/electron/electron.d.ts"
       ],
       "../node_modules/@types/node/base.d.ts": [
@@ -750,8 +754,9 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../js/index.ts",
       "../main.ts",
+      "../models/Blog.ts",
+      "../models/Technology.ts",
       "../node_modules/@types/node/assert.d.ts",
       "../node_modules/@types/node/async_hooks.d.ts",
       "../node_modules/@types/node/base.d.ts",
