@@ -1,3 +1,7 @@
+li {
+  list-style-type: none;
+}
+
 .orange-btn {
   width: 30%;
   background-color: #ffa900;
